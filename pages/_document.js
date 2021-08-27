@@ -3,11 +3,11 @@ import Document, { Html, Head, Main, NextScript } from 'next/document'
 class NewDocument extends Document {
   static async getInitialProps (ctx) {
     const initialProps = await Document.getInitialProps(ctx)
-    return { ...initialProps}
+    return { ...initialProps }
   }
 
   render () {
-    return(
+    return (
       <Html>
         <Head>
           <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet" />

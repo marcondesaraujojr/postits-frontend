@@ -1,4 +1,4 @@
-import { createGlobalStyle } from "styled-components"
+import { createGlobalStyle } from 'styled-components'
 import Theme from '../src/Theme'
 
 const GlobalStyle = createGlobalStyle`
@@ -12,11 +12,11 @@ const GlobalStyle = createGlobalStyle`
   }
 `
 
-export default function App ({ Component, pagaProps }) {
+export default function App ({ Component, pageProps }) {
   return (
     <Theme>
       <GlobalStyle />
-      <Component {...pagaProps} />
+      <Component {...pageProps} />
     </Theme>
   )
 }
