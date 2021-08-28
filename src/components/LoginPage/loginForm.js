@@ -13,6 +13,7 @@ const StyledText = styled.a`
   magin-top: 15px;
   font-size: 14px;
   color: ${({theme}) => theme.colors.white}; 
+  text-align: center;
 `
 
 function LoginForm () {
